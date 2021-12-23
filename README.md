@@ -55,11 +55,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
--168.61.146.135
+168.61.146.135
 
 Machines within the network can only be accessed by Jump Box VM.
 TODO: Which machine did you allow to access your ELK VM? What was its IP address?
--The jump box ip is 168.61.146.135
+The jump box ip is 168.61.146.135
 
 A summary of the access policies in place can be found in the table below.
 
