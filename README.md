@@ -84,6 +84,7 @@ The playbook implements the following tasks:
 - docker
 - increase memory to 262144
 - launch the elk container
+
 **The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance**.
 
 [[![Docker ps](https://github.com/monib757/Project1/blob/main/Images/Elk%20docker%20ps.jpg "Docker ps")](hthttps://github.com/monib757/Project1/blob/main/Images/Elk%20docker%20ps.jpgtp:// "Docker ps")[)
