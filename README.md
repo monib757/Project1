@@ -94,11 +94,11 @@ Web-1 10.0.0.5
 Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
--Specify which Beats you successfully installed
+Specify which Beats you successfully installed
 Metricbeat and Filebeat
 These Beats allow us to collect the following information from each machine:
--Filebeats monitors suspicious logfiles or locations that’s specified.  
--Metricbeat measures the usage of system resources that can be collected and monitored to include uptime.
+Filebeats monitors suspicious logfiles or locations that’s specified.  
+Metricbeat measures the usage of system resources that can be collected and monitored to include uptime.
 
 
 
