@@ -5,7 +5,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Azure Network](http://https://github.com/monib757/Project1/blob/main/Diagrams/Azure%20Network%20Diagram.jpg "Azure Network")
+[![Cloud Diagram](https://github.com/monib757/Project1/blob/main/Diagrams/Azure%20Virtual%20Network.jpeg "Cloud Diagram")](https://github.com/monib757/Project1/blob/main/Diagrams/Azure%20Virtual%20Network.jpeg "Cloud Diagram")
 
 
 
