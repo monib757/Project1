@@ -18,7 +18,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 [Pentest Yml](htthttps://github.com/monib757/Project1/blob/main/Ansible/Pentest.ymlp:// "Pentest Yml")
 [Ansible Config](httphttps://github.com/monib757/Project1/blob/main/Ansible/ansible.cfg:// "Ansible Config")
 [Host](hthttps://github.com/monib757/Project1/blob/main/Ansible/hoststp:// "Host")
+
 This document contains the following details:
+
 - Description of the Topologu
 - Access Policies
 - ELK Configuration
