@@ -110,12 +110,12 @@ SSH into the control node and follow the steps below:
 - Update the host file to include elk and webserver
 - Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 -Which file is the playbook? Where do you copy it?
 The ansible.cfg file to /etc/ansible
 -Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 The host file. Specify the ip addresses so that ansible which knows which machine.
 
-- _Which URL do you navigate to in order to check that the ELK server is running? http://elk public ip/app/Kibana
+-Which URL do you navigate to in order to check that the ELK server is running? http://elk public ip/app/Kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc
