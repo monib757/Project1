@@ -12,7 +12,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
   
- [Filebeat Playbook](httphttps://github.com/monib757/Project1/blob/main/Ansible/Filebeat-playbook.yml:// "Filebeat Playbook")
+[Filebeat Playbook](httphttps://github.com/monib757/Project1/blob/main/Ansible/Filebeat-playbook.yml:// "Filebeat Playbook")
 [Elk Config](htthttps://github.com/monib757/Project1/blob/main/Ansible/Elk_config.ymlp:// "Elk Config")
 [Metricbeat Playbook](https://github.com/monib757/Project1/blob/main/Ansible/Metricbeat-playbook.ymlhttp:// "Metricbeat Playbook")
 [Pentest Yml](htthttps://github.com/monib757/Project1/blob/main/Ansible/Pentest.ymlp:// "Pentest Yml")
@@ -68,7 +68,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 | 168.61.146.135       |
 | Web-1    | No                  | 10.0.0.5             |
 | Web-2    | No                  | 10.0.0.6             |
-  Elk        No                    10.2.0.4
+  Elk      | No                    10.2.0.4
   
 ### Elk Configuration
 
@@ -106,14 +106,14 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ______file to _______
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the playbook file to ansible
+- Update the host file to include elk and webserver
+- Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?
+-Which file is the playbook? Where do you copy it?
 The ansible.cfg file to /etc/ansible
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+-Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 The host file. Specify the ip addresses so that ansible which knows which machine.
 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://elk public ip/app/Kibana
