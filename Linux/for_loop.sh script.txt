@@ -1,0 +1,16 @@
+                      for_loop.sh                                
+
+#!/bin/bash
+
+for state in ${states [@]}
+do
+
+        if [ state == 'Tennessee' ];
+        then
+          echo "Tennessee is very green!"
+        else
+          echo "I wish to visit Tennessee."
+        fi
+        done
+
+
